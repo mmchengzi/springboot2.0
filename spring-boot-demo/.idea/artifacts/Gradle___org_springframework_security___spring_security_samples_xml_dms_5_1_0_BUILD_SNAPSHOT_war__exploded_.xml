@@ -1,0 +1,44 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : org.springframework.security : spring-security-samples-xml-dms-5.1.0.BUILD-SNAPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/../spring-security/samples/xml/dms/build/libs/exploded/spring-security-samples-xml-dms-5.1.0.BUILD-SNAPSHOT.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$/../spring-security/samples/javaconfig/helloworld">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../spring-security/samples/xml/dms/build/libs/exploded/spring-security-samples-xml-dms-5.1.0.BUILD-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="spring-security-samples-xml-dms_main/web/Web Gradle : spring-security-samples-xml-dms-5.1.0.BUILD-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring-security-samples-xml-dms_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/../spring-security/samples/xml/dms/out/production/resources" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="org.springframework.security-spring-security-acl-5.1.0.BUILD-SNAPSHOT.jar">
+            <element id="module-output" name="spring-security-acl_main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/../spring-security/acl/out/production/resources" />
+          </element>
+          <element id="archive" name="org.springframework.security-spring-security-crypto-5.1.0.BUILD-SNAPSHOT.jar">
+            <element id="module-output" name="spring-security-crypto_main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/../spring-security/crypto/out/production/resources" />
+          </element>
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/5.1.0.RC3/6ca1ad2b79e3785f86d274960c1dd9dd9248e2e8/spring-jdbc-5.1.0.RC3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/5.1.0.RC3/c1093e07a54137bce681578aff40df0a5bfe83a7/spring-tx-5.1.0.RC3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context-support/5.1.0.RC3/2d9c3135997c1b1c839a1de4fad8b2ac50cdd590/spring-context-support-5.1.0.RC3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.1.0.RC3/ccc3a10bd4e55a5eb8213f2bec3de5d5eafc7113/spring-context-5.1.0.RC3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.1.0.RC3/19633ce7d10172290b92aea93afdfae7a8ddfaff/spring-aop-5.1.0.RC3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.1.0.RC3/cb02781a58642d0b8ce1e0754d9eb9b1f1b7279f/spring-beans-5.1.0.RC3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hsqldb/hsqldb/2.4.1/9daff99b4fbd6809fd46ab4327650ad00a1be6d4/hsqldb-2.4.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.1.0.RC3/8dbc3f9a350898a086f06a96e5e6039c970f51f7/spring-expression-5.1.0.RC3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.0.RC3/a9808535412f48e31585d4c26cfe4f0466e7bfc0/spring-core-5.1.0.RC3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.1.0.RC3/e9d4780bcadac0a618bb1282473ee002c2526741/spring-jcl-5.1.0.RC3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.ehcache/ehcache/2.10.5/74c1ec0a88bf20a14edb1b30a92b4c33cc6ea6b0/ehcache-2.10.5.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../gateway/spring-cloud-gateway-master/spring-cloud-gateway.iml" filepath="$PROJECT_DIR$/../gateway/spring-cloud-gateway-master/spring-cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gateway/spring-cloud-gateway-master/spring-cloud-gateway-core/spring-cloud-gateway-core.iml" filepath="$PROJECT_DIR$/../gateway/spring-cloud-gateway-master/spring-cloud-gateway-core/spring-cloud-gateway-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gateway/spring-cloud-gateway-master/spring-cloud-gateway-dependencies/spring-cloud-gateway-dependencies.iml" filepath="$PROJECT_DIR$/../gateway/spring-cloud-gateway-master/spring-cloud-gateway-dependencies/spring-cloud-gateway-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gateway/spring-cloud-gateway-master/docs/spring-cloud-gateway-docs.iml" filepath="$PROJECT_DIR$/../gateway/spring-cloud-gateway-master/docs/spring-cloud-gateway-docs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gateway/spring-cloud-gateway-master/spring-cloud-gateway-mvc/spring-cloud-gateway-mvc.iml" filepath="$PROJECT_DIR$/../gateway/spring-cloud-gateway-master/spring-cloud-gateway-mvc/spring-cloud-gateway-mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gateway/spring-cloud-gateway-sample-master/spring-cloud-gateway-sample.iml" filepath="$PROJECT_DIR$/../gateway/spring-cloud-gateway-sample-master/spring-cloud-gateway-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gateway/spring-cloud-gateway-master/spring-cloud-gateway-sample/spring-cloud-gateway-sample (1) (org.springframework.cloud).iml" filepath="$PROJECT_DIR$/../gateway/spring-cloud-gateway-master/spring-cloud-gateway-sample/spring-cloud-gateway-sample (1) (org.springframework.cloud).iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gateway/spring-cloud-gateway-master/spring-cloud-gateway-webflux/spring-cloud-gateway-webflux.iml" filepath="$PROJECT_DIR$/../gateway/spring-cloud-gateway-master/spring-cloud-gateway-webflux/spring-cloud-gateway-webflux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gateway/spring-cloud-gateway-master/spring-cloud-starter-gateway/spring-cloud-starter-gateway.iml" filepath="$PROJECT_DIR$/../gateway/spring-cloud-gateway-master/spring-cloud-starter-gateway/spring-cloud-starter-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-demo.iml" filepath="$PROJECT_DIR$/springboot-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-demo-api/springboot-demo-api.iml" filepath="$PROJECT_DIR$/springboot-demo-api/springboot-demo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-demo-core/springboot-demo-core.iml" filepath="$PROJECT_DIR$/springboot-demo-core/springboot-demo-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-demo-server/springboot-demo-server.iml" filepath="$PROJECT_DIR$/springboot-demo-server/springboot-demo-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/tests.iml" filepath="$PROJECT_DIR$/tests/tests.iml" />
+    </modules>
+  </component>
+</project>

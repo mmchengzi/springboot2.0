@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":spring-security-samples-xml-ldap" external.linked.project.path="$MODULE_DIR$/../../../../spring-security/samples/xml/ldap" external.root.project.path="$MODULE_DIR$/../../../../spring-security/samples/javaconfig/helloworld" external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+    <facet type="web" name="Web Gradle : spring-security-samples-xml-ldap-5.1.0.BUILD-SNAPSHOT.war">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../../../../spring-security/samples/xml/ldap/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://D:\SPRING\mycode\spring-security\samples\xml\ldap\src\main\webapp" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/../../../../spring-security/samples/xml/ldap/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../../../spring-security/samples/xml/ldap/src/main/resources" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../spring-security/samples/xml/ldap/out/production/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../../spring-security/samples/xml/ldap/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../spring-security/samples/xml/ldap">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../spring-security/samples/xml/ldap/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../spring-security/samples/xml/ldap/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../spring-security/samples/xml/ldap/src/integration-test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../spring-security/samples/xml/ldap/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../spring-security/samples/xml/ldap/src/test/resources" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../spring-security/samples/xml/ldap/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../spring-security/samples/xml/ldap/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../spring-security/samples/xml/ldap/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="spring-security-taglibs" />
+    <orderEntry type="module" module-name="spring-security-acl" />
+    <orderEntry type="module" module-name="spring-security-web" />
+    <orderEntry type="module" module-name="spring-security-core" />
+    <orderEntry type="module" module-name="spring-security-crypto" />
+    <orderEntry type="library" name="Gradle: javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:1.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.taglibs:taglibs-standard-jstlel:1.2.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-context:5.1.0.RC3" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-aop:5.1.0.RC3" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-web:5.1.0.RC3" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-jdbc:5.1.0.RC3" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-tx:5.1.0.RC3" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-beans:5.1.0.RC3" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-expression:5.1.0.RC3" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-core:5.1.0.RC3" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.taglibs:taglibs-standard-spec:1.2.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.taglibs:taglibs-standard-impl:1.2.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:5.1.0.RC3" level="project" />
+    <orderEntry type="module" module-name="spring-security-config" scope="RUNTIME" />
+    <orderEntry type="module" module-name="spring-security-ldap" scope="RUNTIME" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.server:apacheds-server-jndi:1.5.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.server:apacheds-protocol-ldap:1.5.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.server:apacheds-kerberos-shared:1.5.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.server:apacheds-protocol-shared:1.5.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.server:apacheds-core-jndi:1.5.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.server:apacheds-core:1.5.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.server:apacheds-utils:1.5.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.server:apacheds-bootstrap-partition:1.5.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.server:apacheds-bootstrap-extract:1.5.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.server:apacheds-jdbm-store:1.5.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.server:apacheds-xdbm-search:1.5.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.server:apacheds-xdbm-tools:1.5.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.server:apacheds-xdbm-base:1.5.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.server:apacheds-core-entry:1.5.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.server:apacheds-schema-extras:1.5.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.server:apacheds-schema-bootstrap:1.5.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.server:apacheds-schema-registries:1.5.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.server:apacheds-core-shared:1.5.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.server:apacheds-core-constants:1.5.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.server:apacheds-jdbm:1.5.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.server:apacheds-core-avl:1.5.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.shared:shared-ldap:0.9.15" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.25" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.slf4j:log4j-over-slf4j:1.7.25" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: ch.qos.logback:logback-classic:1.2.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.shared:shared-cursor:0.9.15" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.shared:shared-asn1-codec:0.9.15" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.mina:mina-core:2.0.0-M6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.shared:shared-asn1:0.9.15" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.directory.shared:shared-ldap-constants:0.9.15" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: bouncycastle:bcprov-jdk15:140" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: commons-collections:commons-collections:3.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: antlr:antlr:2.7.7" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: ch.qos.logback:logback-core:1.2.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: commons-io:commons-io:2.6" level="project" />
+    <orderEntry type="module" module-name="spring-security-config" scope="TEST" />
+    <orderEntry type="module" module-name="spring-security-ldap" scope="TEST" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.mockito:mockito-core:2.21.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework:spring-test:5.1.0.RC3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.assertj:assertj-core:3.11.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: net.bytebuddy:byte-buddy:1.7.9" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: net.bytebuddy:byte-buddy-agent:1.7.9" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.objenesis:objenesis:2.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.server:apacheds-server-jndi:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.server:apacheds-protocol-ldap:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.server:apacheds-kerberos-shared:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.server:apacheds-protocol-shared:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.server:apacheds-core-jndi:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.server:apacheds-core:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.server:apacheds-utils:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.server:apacheds-bootstrap-partition:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.server:apacheds-bootstrap-extract:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.server:apacheds-jdbm-store:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.server:apacheds-xdbm-search:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.server:apacheds-xdbm-tools:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.server:apacheds-xdbm-base:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.server:apacheds-core-entry:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.server:apacheds-schema-extras:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.server:apacheds-schema-bootstrap:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.server:apacheds-schema-registries:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.server:apacheds-core-shared:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.server:apacheds-core-constants:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.server:apacheds-jdbm:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.server:apacheds-core-avl:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.shared:shared-ldap:0.9.15" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.25" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.slf4j:log4j-over-slf4j:1.7.25" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: ch.qos.logback:logback-classic:1.2.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.shared:shared-cursor:0.9.15" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.shared:shared-asn1-codec:0.9.15" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.mina:mina-core:2.0.0-M6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.shared:shared-asn1:0.9.15" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.directory.shared:shared-ldap-constants:0.9.15" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: bouncycastle:bcprov-jdk15:140" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: commons-collections:commons-collections:3.2.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: antlr:antlr:2.7.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: ch.qos.logback:logback-core:1.2.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: commons-io:commons-io:2.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.seleniumhq.selenium:htmlunit-driver:2.32.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.seleniumhq.selenium:selenium-support:3.14.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.seleniumhq.selenium:selenium-remote-driver:3.14.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.seleniumhq.selenium:selenium-api:3.14.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: net.sourceforge.htmlunit:htmlunit:2.32" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.commons:commons-exec:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.httpcomponents:httpmime:4.5.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.httpcomponents:httpclient:4.5.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: commons-codec:commons-codec:1.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.guava:guava:20.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.httpcomponents:httpcore:4.4.8" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okhttp3:okhttp:3.9.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okio:okio:1.13.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: xalan:xalan:2.7.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.commons:commons-text:1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.commons:commons-lang3:3.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: net.sourceforge.htmlunit:htmlunit-core-js:2.32" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: net.sourceforge.htmlunit:neko-htmlunit:2.32" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: net.sourceforge.htmlunit:htmlunit-cssparser:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: commons-net:commons-net:3.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty.websocket:websocket-client:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: xalan:serializer:2.7.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: xerces:xercesImpl:2.11.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty:jetty-client:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty:jetty-xml:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty.websocket:websocket-common:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty:jetty-http:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty:jetty-io:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty:jetty-util:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: xml-apis:xml-apis:1.4.01" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.4.7.v20170914" level="project" />
+  </component>
+</module>

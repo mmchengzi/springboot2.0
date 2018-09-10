@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../gateway/spring-cloud-gateway-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gateway/spring-cloud-gateway-master/docs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gateway/spring-cloud-gateway-master/spring-cloud-gateway-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gateway/spring-cloud-gateway-master/spring-cloud-gateway-mvc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gateway/spring-cloud-gateway-master/spring-cloud-gateway-sample" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gateway/spring-cloud-gateway-master/spring-cloud-gateway-webflux" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gateway/spring-cloud-gateway-master/spring-cloud-starter-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gateway/spring-cloud-gateway-sample-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gateway/trunk" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gateway/trunk/docs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gateway/trunk/spring-cloud-gateway-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gateway/trunk/spring-cloud-gateway-mvc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gateway/trunk/spring-cloud-gateway-sample" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gateway/trunk/spring-cloud-gateway-webflux" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gateway/trunk/spring-cloud-starter-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-demo-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-demo-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-demo-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tests" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-gateway-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-gateway-master/docs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-gateway-master/spring-cloud-gateway-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-gateway-master/spring-cloud-gateway-mvc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-gateway-master/spring-cloud-gateway-sample" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-gateway-master/spring-cloud-gateway-webflux" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-gateway-master/spring-cloud-starter-gateway" charset="UTF-8" />
+  </component>
+</project>

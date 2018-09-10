@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zjc.springbootdemoserver.mapper.InfoKkMapper">
+  <resultMap id="BaseResultMap" type="com.zjc.springbootdemoserver.entity.InfoKk">
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="nid" jdbcType="VARCHAR" property="nid" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="nname" jdbcType="VARCHAR" property="nname" />
+    <result column="coordx" jdbcType="DOUBLE" property="coordx" />
+    <result column="coordy" jdbcType="DOUBLE" property="coordy" />
+    <result column="direction" jdbcType="VARCHAR" property="direction" />
+    <result column="lane_num" jdbcType="INTEGER" property="laneNum" />
+    <result column="dept" jdbcType="VARCHAR" property="dept" />
+    <result column="dept_name" jdbcType="VARCHAR" property="deptName" />
+    <result column="in_out_type" jdbcType="INTEGER" property="inOutType" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, nid, name, nname, coordx, coordy, direction, lane_num, dept, dept_name, in_out_type
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from info_kk
+    where id = #{id,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from info_kk
+    where id = #{id,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.zjc.springbootdemoserver.entity.InfoKk">
+    insert into info_kk (id, nid, name,
+      nname, coordx, coordy,
+      direction, lane_num, dept,
+      dept_name, in_out_type)
+    values (#{id,jdbcType=VARCHAR}, #{nid,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR},
+      #{nname,jdbcType=VARCHAR}, #{coordx,jdbcType=DOUBLE}, #{coordy,jdbcType=DOUBLE},
+      #{direction,jdbcType=VARCHAR}, #{laneNum,jdbcType=INTEGER}, #{dept,jdbcType=VARCHAR},
+      #{deptName,jdbcType=VARCHAR}, #{inOutType,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.zjc.springbootdemoserver.entity.InfoKk">
+    insert into info_kk
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="nid != null">
+        nid,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+      <if test="nname != null">
+        nname,
+      </if>
+      <if test="coordx != null">
+        coordx,
+      </if>
+      <if test="coordy != null">
+        coordy,
+      </if>
+      <if test="direction != null">
+        direction,
+      </if>
+      <if test="laneNum != null">
+        lane_num,
+      </if>
+      <if test="dept != null">
+        dept,
+      </if>
+      <if test="deptName != null">
+        dept_name,
+      </if>
+      <if test="inOutType != null">
+        in_out_type,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="nid != null">
+        #{nid,jdbcType=VARCHAR},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="nname != null">
+        #{nname,jdbcType=VARCHAR},
+      </if>
+      <if test="coordx != null">
+        #{coordx,jdbcType=DOUBLE},
+      </if>
+      <if test="coordy != null">
+        #{coordy,jdbcType=DOUBLE},
+      </if>
+      <if test="direction != null">
+        #{direction,jdbcType=VARCHAR},
+      </if>
+      <if test="laneNum != null">
+        #{laneNum,jdbcType=INTEGER},
+      </if>
+      <if test="dept != null">
+        #{dept,jdbcType=VARCHAR},
+      </if>
+      <if test="deptName != null">
+        #{deptName,jdbcType=VARCHAR},
+      </if>
+      <if test="inOutType != null">
+        #{inOutType,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.zjc.springbootdemoserver.entity.InfoKk">
+    update info_kk
+    <set>
+      <if test="nid != null">
+        nid = #{nid,jdbcType=VARCHAR},
+      </if>
+      <if test="name != null">
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="nname != null">
+        nname = #{nname,jdbcType=VARCHAR},
+      </if>
+      <if test="coordx != null">
+        coordx = #{coordx,jdbcType=DOUBLE},
+      </if>
+      <if test="coordy != null">
+        coordy = #{coordy,jdbcType=DOUBLE},
+      </if>
+      <if test="direction != null">
+        direction = #{direction,jdbcType=VARCHAR},
+      </if>
+      <if test="laneNum != null">
+        lane_num = #{laneNum,jdbcType=INTEGER},
+      </if>
+      <if test="dept != null">
+        dept = #{dept,jdbcType=VARCHAR},
+      </if>
+      <if test="deptName != null">
+        dept_name = #{deptName,jdbcType=VARCHAR},
+      </if>
+      <if test="inOutType != null">
+        in_out_type = #{inOutType,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.zjc.springbootdemoserver.entity.InfoKk">
+    update info_kk
+    set nid = #{nid,jdbcType=VARCHAR},
+      name = #{name,jdbcType=VARCHAR},
+      nname = #{nname,jdbcType=VARCHAR},
+      coordx = #{coordx,jdbcType=DOUBLE},
+      coordy = #{coordy,jdbcType=DOUBLE},
+      direction = #{direction,jdbcType=VARCHAR},
+      lane_num = #{laneNum,jdbcType=INTEGER},
+      dept = #{dept,jdbcType=VARCHAR},
+      dept_name = #{deptName,jdbcType=VARCHAR},
+      in_out_type = #{inOutType,jdbcType=INTEGER}
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+</mapper>

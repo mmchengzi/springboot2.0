@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-gateway-sample" />
+        <module name="springboot-demo-api" />
+        <module name="springboot-demo-core" />
+        <module name="springboot-demo-server" />
+        <module name="test" />
+        <module name="tests" />
+      </profile>
+      <profile name="Annotation profile for Spring Cloud Gateway" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-gateway-core" />
+        <module name="spring-cloud-gateway-mvc" />
+        <module name="spring-cloud-gateway-sample (1) (org.springframework.cloud)" />
+        <module name="spring-cloud-gateway-webflux" />
+        <module name="spring-cloud-starter-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud-gateway" target="1.5" />
+      <module name="spring-cloud-gateway-core" target="1.5" />
+      <module name="spring-cloud-gateway-dependencies" target="1.5" />
+      <module name="spring-cloud-gateway-docs" target="1.5" />
+      <module name="spring-cloud-gateway-mvc" target="1.5" />
+      <module name="spring-cloud-gateway-sample" target="1.8" />
+      <module name="spring-cloud-gateway-sample (1) (org.springframework.cloud)" target="1.5" />
+      <module name="spring-cloud-gateway-webflux" target="1.5" />
+      <module name="spring-cloud-starter-gateway" target="1.5" />
+      <module name="spring-security-acl_main" target="1.8" />
+      <module name="spring-security-acl_test" target="1.8" />
+      <module name="spring-security-aspects_main" target="1.8" />
+      <module name="spring-security-aspects_test" target="1.8" />
+      <module name="spring-security-bom_main" target="1.8" />
+      <module name="spring-security-bom_test" target="1.8" />
+      <module name="spring-security-cas_main" target="1.8" />
+      <module name="spring-security-cas_test" target="1.8" />
+      <module name="spring-security-crypto_main" target="1.8" />
+      <module name="spring-security-crypto_test" target="1.8" />
+      <module name="spring-security-data_main" target="1.8" />
+      <module name="spring-security-data_test" target="1.8" />
+      <module name="spring-security-openid_main" target="1.8" />
+      <module name="spring-security-openid_test" target="1.8" />
+      <module name="spring-security-samples-boot-helloworld_integrationTest" target="1.8" />
+      <module name="spring-security-samples-boot-helloworld_main" target="1.8" />
+      <module name="spring-security-samples-boot-helloworld_test" target="1.8" />
+      <module name="spring-security-samples-boot-insecure_integrationTest" target="1.8" />
+      <module name="spring-security-samples-boot-insecure_main" target="1.8" />
+      <module name="spring-security-samples-boot-insecure_test" target="1.8" />
+      <module name="spring-security-samples-boot-oauth2login_integrationTest" target="1.8" />
+      <module name="spring-security-samples-boot-oauth2login_main" target="1.8" />
+      <module name="spring-security-samples-boot-oauth2login_test" target="1.8" />
+      <module name="spring-security-samples-boot-oauth2resourceserver_integrationTest" target="1.8" />
+      <module name="spring-security-samples-boot-oauth2resourceserver_main" target="1.8" />
+      <module name="spring-security-samples-boot-oauth2resourceserver_test" target="1.8" />
+      <module name="spring-security-samples-javaconfig-aspectj_main" target="1.8" />
+      <module name="spring-security-samples-javaconfig-aspectj_test" target="1.8" />
+      <module name="spring-security-samples-javaconfig-data_main" target="1.8" />
+      <module name="spring-security-samples-javaconfig-data_test" target="1.8" />
+      <module name="spring-security-samples-javaconfig-helloworld_integrationTest" target="1.8" />
+      <module name="spring-security-samples-javaconfig-helloworld_main" target="1.8" />
+      <module name="spring-security-samples-javaconfig-helloworld_test" target="1.8" />
+      <module name="spring-security-samples-xml-aspectj_main" target="1.8" />
+      <module name="spring-security-samples-xml-aspectj_test" target="1.8" />
+      <module name="spring-security-samples-xml-cas_main" target="1.8" />
+      <module name="spring-security-samples-xml-cas_test" target="1.8" />
+      <module name="spring-security-samples-xml-cassample_integrationTest" target="1.8" />
+      <module name="spring-security-samples-xml-cassample_main" target="1.8" />
+      <module name="spring-security-samples-xml-cassample_test" target="1.8" />
+      <module name="spring-security-samples-xml-casserver_main" target="1.8" />
+      <module name="spring-security-samples-xml-casserver_test" target="1.8" />
+      <module name="spring-security-samples-xml-dms_main" target="1.8" />
+      <module name="spring-security-samples-xml-dms_test" target="1.8" />
+      <module name="spring-security-samples-xml-helloworld_integrationTest" target="1.8" />
+      <module name="spring-security-samples-xml-helloworld_main" target="1.8" />
+      <module name="spring-security-samples-xml-helloworld_test" target="1.8" />
+      <module name="spring-security-samples-xml-insecure_integrationTest" target="1.8" />
+      <module name="spring-security-samples-xml-insecure_main" target="1.8" />
+      <module name="spring-security-samples-xml-insecure_test" target="1.8" />
+      <module name="spring-security-samples-xml-jaas_integrationTest" target="1.8" />
+      <module name="spring-security-samples-xml-jaas_main" target="1.8" />
+      <module name="spring-security-samples-xml-jaas_test" target="1.8" />
+      <module name="spring-security-samples-xml-preauth_main" target="1.8" />
+      <module name="spring-security-samples-xml-preauth_test" target="1.8" />
+      <module name="spring-security-taglibs_main" target="1.8" />
+      <module name="spring-security-taglibs_test" target="1.8" />
+      <module name="springboot-demo" target="1.5" />
+      <module name="springboot-demo-api" target="1.8" />
+      <module name="springboot-demo-core" target="1.8" />
+      <module name="springboot-demo-server" target="1.8" />
+      <module name="test" target="1.7" />
+      <module name="tests" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

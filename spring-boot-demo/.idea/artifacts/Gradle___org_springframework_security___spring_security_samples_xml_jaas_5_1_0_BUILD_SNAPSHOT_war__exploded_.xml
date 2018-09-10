@@ -1,0 +1,54 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : org.springframework.security : spring-security-samples-xml-jaas-5.1.0.BUILD-SNAPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/../spring-security/samples/xml/jaas/build/libs/exploded/spring-security-samples-xml-jaas-5.1.0.BUILD-SNAPSHOT.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$/../spring-security/samples/javaconfig/helloworld">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../spring-security/samples/xml/jaas/build/libs/exploded/spring-security-samples-xml-jaas-5.1.0.BUILD-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="spring-security-samples-xml-jaas_main/web/Web Gradle : spring-security-samples-xml-jaas-5.1.0.BUILD-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring-security-samples-xml-jaas_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/../spring-security/samples/xml/jaas/out/production/resources" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="org.springframework.security-spring-security-taglibs-5.1.0.BUILD-SNAPSHOT.jar">
+            <element id="module-output" name="spring-security-taglibs_main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/../spring-security/taglibs/out/production/resources" />
+          </element>
+          <element id="archive" name="org.springframework.security-spring-security-acl-5.1.0.BUILD-SNAPSHOT.jar">
+            <element id="module-output" name="spring-security-acl_main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/../spring-security/acl/out/production/resources" />
+          </element>
+          <element id="archive" name="org.springframework.security-spring-security-crypto-5.1.0.BUILD-SNAPSHOT.jar">
+            <element id="module-output" name="spring-security-crypto_main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/../spring-security/crypto/out/production/resources" />
+          </element>
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.1.0.RC3/ccc3a10bd4e55a5eb8213f2bec3de5d5eafc7113/spring-context-5.1.0.RC3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.0.RC3/90f76e4eda8213bb4e087c7dbcc265ebe8467263/spring-web-5.1.0.RC3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.1.0.RC3/19633ce7d10172290b92aea93afdfae7a8ddfaff/spring-aop-5.1.0.RC3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/5.1.0.RC3/6ca1ad2b79e3785f86d274960c1dd9dd9248e2e8/spring-jdbc-5.1.0.RC3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/5.1.0.RC3/c1093e07a54137bce681578aff40df0a5bfe83a7/spring-tx-5.1.0.RC3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.1.0.RC3/cb02781a58642d0b8ce1e0754d9eb9b1f1b7279f/spring-beans-5.1.0.RC3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet.jsp.jstl/javax.servlet.jsp.jstl-api/1.2.2/8c180218e860de0347bd2908328e2c67cec46442/javax.servlet.jsp.jstl-api-1.2.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.taglibs/taglibs-standard-jstlel/1.2.5/7acb4b1a404d8016caf89fddcbe84791c4bc2ba0/taglibs-standard-jstlel-1.2.5.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.25/f8c32b13ff142a513eeb5b6330b1588dcb2c0461/jcl-over-slf4j-1.7.25.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.25/a87bb47468f47ee7aabbd54f93e133d4215769c3/log4j-over-slf4j-1.7.25.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.1.0.RC3/8dbc3f9a350898a086f06a96e5e6039c970f51f7/spring-expression-5.1.0.RC3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.0.RC3/a9808535412f48e31585d4c26cfe4f0466e7bfc0/spring-core-5.1.0.RC3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.taglibs/taglibs-standard-spec/1.2.5/c3bb98c30f75fef1e229d1d03cf8457de22f1ba0/taglibs-standard-spec-1.2.5.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.taglibs/taglibs-standard-impl/1.2.5/9b9783ccb2a323383e6e20e36d368f8997b71967/taglibs-standard-impl-1.2.5.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/864344400c3d4d92dfeb0a305dc87d953677c03c/logback-core-1.2.3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.1.0.RC3/e9d4780bcadac0a618bb1282473ee002c2526741/spring-jcl-5.1.0.RC3.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

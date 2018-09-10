@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : spring-security-samples-xml-contacts-5.1.0.BUILD-SNAPSHOT.war">
+    <output-path>$PROJECT_DIR$/../spring-security/samples/xml/contacts/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$/../spring-security/samples/javaconfig/helloworld" />
+    </properties>
+    <root id="archive" name="spring-security-samples-xml-contacts-5.1.0.BUILD-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Gradle : spring-security-samples-xml-contacts-5.1.0.BUILD-SNAPSHOT.war (exploded)" />
+    </root>
+  </artifact>
+</component>

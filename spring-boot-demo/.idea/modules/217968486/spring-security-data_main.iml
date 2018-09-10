@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":spring-security-data:main" external.linked.project.path="$MODULE_DIR$/../../../../spring-security/data" external.root.project.path="$MODULE_DIR$/../../../../spring-security/samples/javaconfig/helloworld" external.system.id="GRADLE" external.system.module.group="org.springframework.security" external.system.module.type="sourceSet" external.system.module.version="5.1.0.BUILD-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../../spring-security/data/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../spring-security/data/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../spring-security/data/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../spring-security/data/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../spring-security/core/build/libs/spring-security-core-5.1.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: javax.xml.bind:jaxb-api:2.4.0-b180830.0359" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.data:spring-data-commons:2.1.0.RC2" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-context:5.1.0.RC3" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-aop:5.1.0.RC3" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-beans:5.1.0.RC3" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-expression:5.1.0.RC3" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-core:5.1.0.RC3" level="project" />
+    <orderEntry type="module" module-name="spring-security-crypto_main" />
+    <orderEntry type="library" name="Gradle: javax.activation:javax.activation-api:1.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:5.1.0.RC3" level="project" />
+  </component>
+</module>

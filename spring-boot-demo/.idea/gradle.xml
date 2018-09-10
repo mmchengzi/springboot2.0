@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../spring-security/samples/javaconfig/helloworld" />
+        <option name="gradleHome" value="D:/devlopment/gradle-4.10" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../spring-security" />
+            <option value="$PROJECT_DIR$/../spring-security/acl" />
+            <option value="$PROJECT_DIR$/../spring-security/aspects" />
+            <option value="$PROJECT_DIR$/../spring-security/bom" />
+            <option value="$PROJECT_DIR$/../spring-security/cas" />
+            <option value="$PROJECT_DIR$/../spring-security/config" />
+            <option value="$PROJECT_DIR$/../spring-security/core" />
+            <option value="$PROJECT_DIR$/../spring-security/crypto" />
+            <option value="$PROJECT_DIR$/../spring-security/data" />
+            <option value="$PROJECT_DIR$/../spring-security/docs" />
+            <option value="$PROJECT_DIR$/../spring-security/docs/guides" />
+            <option value="$PROJECT_DIR$/../spring-security/docs/manual" />
+            <option value="$PROJECT_DIR$/../spring-security/itest/context" />
+            <option value="$PROJECT_DIR$/../spring-security/itest/web" />
+            <option value="$PROJECT_DIR$/../spring-security/ldap" />
+            <option value="$PROJECT_DIR$/../spring-security/messaging" />
+            <option value="$PROJECT_DIR$/../spring-security/oauth2/oauth2-client" />
+            <option value="$PROJECT_DIR$/../spring-security/oauth2/oauth2-core" />
+            <option value="$PROJECT_DIR$/../spring-security/oauth2/oauth2-jose" />
+            <option value="$PROJECT_DIR$/../spring-security/oauth2/oauth2-resource-server" />
+            <option value="$PROJECT_DIR$/../spring-security/openid" />
+            <option value="$PROJECT_DIR$/../spring-security/remoting" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/boot/hellowebflux" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/boot/hellowebflux-method" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/boot/hellowebfluxfn" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/boot/helloworld" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/boot/insecure" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/boot/oauth2login" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/boot/oauth2login-webflux" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/boot/oauth2resourceserver" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/boot/oauth2resourceserver-webflux" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/boot/oauth2webclient" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/boot/oauth2webclient-webflux" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/boot/webflux-form" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/javaconfig/aspectj" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/javaconfig/concurrency" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/javaconfig/data" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/javaconfig/form" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/javaconfig/hellojs" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/javaconfig/hellomvc" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/javaconfig/helloworld" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/javaconfig/inmemory" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/javaconfig/jdbc" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/javaconfig/ldap" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/javaconfig/messages" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/javaconfig/openid" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/javaconfig/preauth" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/javaconfig/rememberme" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/javaconfig/x509" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/xml/aspectj" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/xml/cas" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/xml/cas/cassample" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/xml/cas/casserver" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/xml/contacts" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/xml/dms" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/xml/gae" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/xml/helloworld" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/xml/insecure" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/xml/insecuremvc" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/xml/jaas" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/xml/ldap" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/xml/openid" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/xml/preauth" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/xml/servletapi" />
+            <option value="$PROJECT_DIR$/../spring-security/samples/xml/tutorial" />
+            <option value="$PROJECT_DIR$/../spring-security/taglibs" />
+            <option value="$PROJECT_DIR$/../spring-security/test" />
+            <option value="$PROJECT_DIR$/../spring-security/web" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

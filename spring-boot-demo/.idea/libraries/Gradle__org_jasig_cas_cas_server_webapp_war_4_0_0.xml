@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jasig.cas:cas-server-webapp:war:4.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jasig.cas/cas-server-webapp/4.0.0/194120ed953ca28fdf143cc57465e320e6eed637/cas-server-webapp-4.0.0.war!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jasig.cas/cas-server-webapp/4.0.0/8e783f27b557b50830049f89c19ca8affd251d36/cas-server-webapp-4.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

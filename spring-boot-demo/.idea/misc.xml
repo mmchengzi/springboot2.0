@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springboot-demo-server" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/tests/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cloud-gateway-master/pom.xml" />
+        <option value="$PROJECT_DIR$/../gateway/trunk/pom.xml" />
+        <option value="$PROJECT_DIR$/../gateway/spring-cloud-gateway-sample-master/pom.xml" />
+        <option value="$PROJECT_DIR$/../gateway/spring-cloud-gateway-master/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../gateway/trunk/docs/pom.xml" />
+        <option value="$PROJECT_DIR$/../gateway/trunk/pom.xml" />
+        <option value="$PROJECT_DIR$/../gateway/trunk/spring-cloud-gateway-core/pom.xml" />
+        <option value="$PROJECT_DIR$/../gateway/trunk/spring-cloud-gateway-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/../gateway/trunk/spring-cloud-gateway-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/../gateway/trunk/spring-cloud-gateway-sample/pom.xml" />
+        <option value="$PROJECT_DIR$/../gateway/trunk/spring-cloud-gateway-webflux/pom.xml" />
+        <option value="$PROJECT_DIR$/../gateway/trunk/spring-cloud-starter-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cloud-gateway-master/docs/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cloud-gateway-master/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cloud-gateway-master/spring-cloud-gateway-core/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cloud-gateway-master/spring-cloud-gateway-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cloud-gateway-master/spring-cloud-gateway-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cloud-gateway-master/spring-cloud-gateway-sample/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cloud-gateway-master/spring-cloud-gateway-webflux/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cloud-gateway-master/spring-cloud-starter-gateway/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+</project>

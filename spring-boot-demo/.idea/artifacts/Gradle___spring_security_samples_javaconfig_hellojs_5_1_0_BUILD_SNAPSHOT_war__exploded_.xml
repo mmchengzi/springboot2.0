@@ -1,0 +1,43 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : spring-security-samples-javaconfig-hellojs-5.1.0.BUILD-SNAPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/../spring-security/samples/javaconfig/hellojs/build/libs/exploded/spring-security-samples-javaconfig-hellojs-5.1.0.BUILD-SNAPSHOT.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$/../spring-security/samples/javaconfig/helloworld">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../spring-security/samples/javaconfig/hellojs/build/libs/exploded/spring-security-samples-javaconfig-hellojs-5.1.0.BUILD-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="spring-security-samples-javaconfig-hellojs/web/Web Gradle : spring-security-samples-javaconfig-hellojs-5.1.0.BUILD-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring-security-samples-javaconfig-hellojs" />
+          <element id="dir-copy" path="$PROJECT_DIR$/../spring-security/samples/javaconfig/hellojs/out/production/resources" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="spring-security-samples-javaconfig-messages.jar">
+            <element id="module-output" name="spring-security-samples-javaconfig-messages" />
+            <element id="dir-copy" path="$PROJECT_DIR$/../spring-security/samples/javaconfig/messages/out/production/resources" />
+          </element>
+          <element id="archive" name="spring-security-config.jar">
+            <element id="module-output" name="spring-security-config" />
+            <element id="dir-copy" path="$PROJECT_DIR$/../spring-security/config/out/production/resources" />
+          </element>
+          <element id="archive" name="spring-security-core.jar">
+            <element id="module-output" name="spring-security-core" />
+            <element id="dir-copy" path="$PROJECT_DIR$/../spring-security/core/out/production/resources" />
+          </element>
+          <element id="archive" name="org.springframework.security-spring-security-crypto-5.1.0.BUILD-SNAPSHOT.jar">
+            <element id="module-output" name="spring-security-crypto" />
+          </element>
+          <element id="archive" name="spring-security-web.jar">
+            <element id="module-output" name="spring-security-web" />
+            <element id="dir-copy" path="$PROJECT_DIR$/../spring-security/web/out/production/resources" />
+          </element>
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

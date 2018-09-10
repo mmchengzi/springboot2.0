@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="spring-security" external.linked.project.path="$MODULE_DIR$/../../../../spring-security" external.root.project.path="$MODULE_DIR$/../../../../spring-security/samples/javaconfig/helloworld" external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../spring-security/out/production/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../../spring-security/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../spring-security">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../spring-security/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../spring-security/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../spring-security/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
